@@ -5,9 +5,13 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Så er vi kørende !" %>
 </h1>
+
+jeg glæder mig til sommer
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<br/>
+<br/>
+<a href="hello-servlet">Link til vores Servlet</a>
 </body>
 </html>
