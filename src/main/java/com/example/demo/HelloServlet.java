@@ -16,18 +16,34 @@ public class HelloServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
 
+        String fornavn = request.getParameter("fname");
+        String efternavn = request.getParameter("lname");
+
         // Hello
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("<h2>" + "Jeg elsker nisseskum " + "</h2>");
-
+        out.println("<h1>" + "Du ramnte min get metode" + "</h1>");
+        out.println("fornavnet var " + fornavn + "<br/>");
+        out.println("efternavnet var " + efternavn + "<br/>");
         out.println("</body></html>");
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        super.doPost(req, resp);
+
+        response.setContentType("text/html");
+
+        String fornavn = request.getParameter("fname");
+        String efternavn = request.getParameter("lname");
+
+        // Hello
+        PrintWriter out = response.getWriter();
+        out.println("<html><body>");
+        out.println("<h1>" + "Du ramnte min post metode" + "</h1>");
+        out.println("fornavnet var " + fornavn + "<br/>");
+        out.println("efternavnet var " + efternavn + "<br/>");
+        out.println("</body></html>");
     }
 
     public void destroy() {
