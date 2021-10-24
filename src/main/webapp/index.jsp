@@ -9,7 +9,7 @@
 </h1>
 
 Her har vi 2 forskellige forms, så vi kan afprøve lidt af hvert !
-<!--
+
 <table>
     <tr>
         <th><h2>Get</h2></th>
@@ -29,15 +29,15 @@ Her har vi 2 forskellige forms, så vi kan afprøve lidt af hvert !
         <td>
             <form action="hello-servlet", method="post">
                 <label for="pfname">First Name:</label><br/>
-                <input type="text" id="pfname" name="fname" value="John"><br/>
+                <input type="text" id="pfname" name="fname" value="Jane"><br/>
                 <label for="plname">Last Name:</label><br/>
                 <input type="text" id="plname" name="lname" value="Doe"><br/>
                 <input type="submit" value="submit">
             </form>
         </td>
     </tr>
-</table>-->
-
+</table>
+<!--
 <h2>Get Form</h2>
 
 <form action="hello-servlet" method="get">
@@ -57,6 +57,7 @@ Her har vi 2 forskellige forms, så vi kan afprøve lidt af hvert !
     <input type="text" id="plname" name="lname" value="Doe"><br/>
     <input type="submit" value="submit">
 </form>
+-->
 
 <br/>
 <br/>
