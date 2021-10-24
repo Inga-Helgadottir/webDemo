@@ -37,27 +37,6 @@ Her har vi 2 forskellige forms, så vi kan afprøve lidt af hvert !
         </td>
     </tr>
 </table>
-<!--
-<h2>Get Form</h2>
-
-<form action="hello-servlet" method="get">
-    <label for="fname">First Name:</label><br/>
-    <input type="text" id="fname" name="fname" value="John"><br/>
-    <label for="lname">Last Name:</label><br/>
-    <input type="text" id="lname" name="lname" value="Doe"><br/>
-    <input type="submit" value="submit">
-</form>
-
-<h2>Post Form</h2>
-
-<form action="hello-servlet" method="post">
-    <label for="pfname">First Name:</label><br/>
-    <input type="text" id="pfname" name="fname" value="Jane"><br/>
-    <label for="plname">Last Name:</label><br/>
-    <input type="text" id="plname" name="lname" value="Doe"><br/>
-    <input type="submit" value="submit">
-</form>
--->
 
 <br/>
 <br/>
